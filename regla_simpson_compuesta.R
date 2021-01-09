@@ -39,7 +39,6 @@ regla_simpson_Compuesta <- function(a, b, n){
     #Sumatoria de las X sub i pares (suma de imagenes) 
   paso <- a + 2*h  #Iniciamos en un X sub i par (X2, ....)
   sumatoria2 <- sumatoria(paso,b,h) #Saltamos en el intervalo de a dos (x2, x4, x6,...)
-  #while(paso < b){
 
    #Sumatoria de las X sub i impares
   paso <- a + h  #Iniciamos en un X sub i impar (X1,..) y  luego saltamos de a dos (X1,X3,x5,...)
